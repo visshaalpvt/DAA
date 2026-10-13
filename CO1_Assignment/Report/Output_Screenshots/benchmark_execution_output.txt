@@ -1,0 +1,30 @@
+================================================================================
+STARTING DAA CO1 BENCHMARK EXPERIMENTS
+Dataset sizes: [100, 1000, 10000, 100000, 500000, 1000000]
+================================================================================
+[+] N = 100:
+    [Linear]    Best:    1.15 us (1 comps)  | Avg:      3.53 us (43 comps)      | Worst:       6.26 us (100 comps)
+    [Iter Bin]  Best:    1.76 us (6 comps)  | Avg:      1.62 us (6 comps)       | Worst:       1.79 us (7 comps)
+    [Rec  Bin]  Best:    6.91 us (6 comps)  | Avg:      2.84 us (6 comps)       | Worst:       6.61 us (7 comps)
+[+] N = 1,000:
+    [Linear]    Best:    0.85 us (1 comps)  | Avg:     57.00 us (509 comps)     | Worst:      75.74 us (1000 comps)
+    [Iter Bin]  Best:    2.73 us (9 comps)  | Avg:      2.85 us (9 comps)       | Worst:       2.84 us (10 comps)
+    [Rec  Bin]  Best:    5.04 us (9 comps)  | Avg:      4.45 us (9 comps)       | Worst:       4.96 us (10 comps)
+[+] N = 10,000:
+    [Linear]    Best:    0.78 us (1 comps)  | Avg:    499.09 us (4664 comps)    | Worst:     976.03 us (10000 comps)
+    [Iter Bin]  Best:    3.66 us (13 comps) | Avg:      3.73 us (12 comps)      | Worst:       3.83 us (14 comps)
+    [Rec  Bin]  Best:    4.71 us (13 comps) | Avg:      4.35 us (12 comps)      | Worst:       4.87 us (14 comps)
+[+] N = 100,000:
+    [Linear]    Best:    1.00 us (1 comps)  | Avg:   4955.14 us (44735 comps)   | Worst:    9841.17 us (100000 comps)
+    [Iter Bin]  Best:    4.36 us (16 comps) | Avg:      5.44 us (16 comps)      | Worst:       4.54 us (17 comps)
+    [Rec  Bin]  Best:    6.20 us (16 comps) | Avg:      5.79 us (16 comps)      | Worst:       6.27 us (17 comps)
+[+] N = 500,000:
+    [Linear]    Best:    2.50 us (1 comps)  | Avg:  27012.11 us (257797 comps)  | Worst:   46781.50 us (500000 comps)
+    [Iter Bin]  Best:    4.84 us (18 comps) | Avg:      5.10 us (18 comps)      | Worst:       5.34 us (19 comps)
+    [Rec  Bin]  Best:    6.10 us (18 comps) | Avg:      6.32 us (18 comps)      | Worst:       6.46 us (19 comps)
+[+] N = 1,000,000:
+    [Linear]    Best:    0.80 us (1 comps)  | Avg:  37228.32 us (522224 comps)  | Worst:   63449.70 us (1000000 comps)
+    [Iter Bin]  Best:    3.22 us (19 comps) | Avg:      3.14 us (19 comps)      | Worst:       3.39 us (20 comps)
+    [Rec  Bin]  Best:    4.08 us (19 comps) | Avg:      3.93 us (19 comps)      | Worst:       4.13 us (20 comps)
+================================================================================
+[SUCCESS] All benchmarks completed and exported to CSV & High-Res Plots.

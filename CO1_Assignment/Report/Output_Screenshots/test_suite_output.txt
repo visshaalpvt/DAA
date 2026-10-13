@@ -1,0 +1,13 @@
+$ py test_suite.py -v
+test_empty_list (test_suite.TestSearchAlgorithms.test_empty_list) ... ok
+test_first_element_search (test_suite.TestSearchAlgorithms.test_first_element_search) ... ok
+test_last_element_search (test_suite.TestSearchAlgorithms.test_last_element_search) ... ok
+test_middle_element_search (test_suite.TestSearchAlgorithms.test_middle_element_search) ... ok
+test_non_existent_element (test_suite.TestSearchAlgorithms.test_non_existent_element) ... ok
+test_parity_across_random_queries (test_suite.TestSearchAlgorithms.test_parity_across_random_queries) ... ok
+test_single_element_list (test_suite.TestSearchAlgorithms.test_single_element_list) ... ok
+----------------------------------------------------------------------
+Ran 7 tests in 0.012s
+
+OK
+[SUCCESS] 100% Test cases passed for Linear Search, Iterative Binary Search, and Recursive Binary Search.
